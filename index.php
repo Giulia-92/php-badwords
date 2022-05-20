@@ -13,10 +13,14 @@ $nuova_str=str_replace('dolor','***',$stringa);
 </head>
 <body>
     <p><?php echo $stringa ?></p>
-    <p>Lunghezza<?php echo strlen($stringa) ?></p>
+    <p>Lunghezza <?php echo strlen($stringa) ?></p>
     <h1>Nuova Stringa</h1>
     <p><?php echo $nuova_str ?></p>
-    <p>Lunghezza<?php echo strlen($nuova_str) ?></p>
+    <p>Lunghezza <?php echo strlen($nuova_str) ?></p>
 
+
+
+
+    <!--$stringa=$_GET['parola'];-->
 </body>
 </html>
