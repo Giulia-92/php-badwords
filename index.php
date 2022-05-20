@@ -1,6 +1,7 @@
 <?php
-$stringa='Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat minima sunt, excepturi iusto provident aut eligendi blanditiis accusantium ab, ipsa reiciendis doloribus! Fugit delectus eius deserunt quidem quasi, quod nemo dicta aut corrupti maiores libero, cumque odio perspiciatis molestias obcaecati iusto. Numquam vel delectus expedita dignissimos beatae dolore animi est.'
-$stringa_nuova=str-replace('dolor','doloribus','dolore','***',$stringa);?>
+$stringa='Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat minima sunt, excepturi iusto provident aut eligendi blanditiis accusantium ab, ipsa reiciendis doloribus! Fugit delectus eius deserunt quidem quasi, quod nemo dicta aut corrupti maiores libero, cumque odio perspiciatis molestias obcaecati iusto. Numquam vel delectus expedita dignissimos beatae dolore animi est.';
+$nuova_str=str_replace('dolor','***',$stringa);
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,8 +15,8 @@ $stringa_nuova=str-replace('dolor','doloribus','dolore','***',$stringa);?>
     <p><?php echo $stringa ?></p>
     <p><?php echo strlen($stringa) ?></p>
     <h1>Nuova Stringa</h1>
-    <p><?php echo $stringa_nuova ?></p>
-    <p><?php echo strlen($stringa_nuova) ?></p>
+    <p><?php echo $nuova_str ?></p>
+    <p><?php echo strlen($nuova_str) ?></p>
 
 </body>
 </html>
